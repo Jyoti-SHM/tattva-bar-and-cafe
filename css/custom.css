@@ -14,6 +14,7 @@
 .whatsapp-icon {left: 23px;bottom: 12px;}
 .booking-icon{ right: 23px;bottom: 12px;}
 .dropdown-toggle::after{display: none !important;}
+.sc-menu img{padding-bottom: 2%;}
 @media only screen and (max-width:767px) {
     .whatsapp-icon {height: 80px;width: 80px;margin-left: -25px;margin-bottom: -25px}
 }
