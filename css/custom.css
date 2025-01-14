@@ -4,7 +4,9 @@
 .df .btn:focus{box-shadow: none;color: #000;}
 .df .btn:active, .df .btn:hover{color: #000 !important;}
 .main_name:hover{color: #c3925a;text-decoration: none;}
-.menu_tab-list_item img{width: 100px;}
+.pdt{padding-top: 5%;}
+.pdb{padding-bottom: 0 !important;}
+.menu_tab-list_item img{width: 150px;}
 .cust-menu .menu_tab-list_item .description{font-style: italic !important;text-transform: lowercase !important;font-weight: 400;color: #9ea4a3;}
 .cust-menu .main_name{padding-bottom: 10px;}
 .cust-p{padding: 0 0 130px 0 !important;}
