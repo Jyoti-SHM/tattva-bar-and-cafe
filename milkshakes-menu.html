@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Menu | Tattva Bar & Cafe</title>
+        <title>Milkshake Menu | Tattva Bar & Cafe</title>
          <!--<script id="www-widgetapi-script" src="https://s.ytimg.com/yts/jsbin/www-widgetapi-vflS50iB-/www-widgetapi.js" async=""></script>-->
         <!-- <script src="https://www.youtube.com/player_api"></script> -->
         <link rel="stylesheet preload" as="style" href="css/preload.min.css" />
@@ -17,6 +17,7 @@
         <link rel="shortcut icon" href="img/favicon/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
         <!-- favicon ends-->
+        <!-- <link rel="stylesheet" href="css/index.min.css" /> -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/menu.min.css" />
     </head>
@@ -32,7 +33,7 @@
                     <ul class="header_nav-list">
                         <li class="header_nav-list_item ">
                             <a
-                            class="nav-link nav-item dropdown-toggle d-flex align-items-center"
+                            class="nav-link nav-item -toggle d-flex align-items-center"
                             href="index.html"
                             data-bs-toggle="collapse"
                             data-bs-target="#homeMenu"
@@ -68,9 +69,9 @@
                                 <span class="nav-item_text">Reservation</span>
                             </a>
                         </li>
-                       <!-- <li class="header_nav-list_item dropdown">
+                        <li class="header_nav-list_item ">
                             <a
-                                class="nav-link nav-item dropdown-toggle d-flex align-items-center"
+                                class="nav-link nav-item  d-flex align-items-center"
                                 href="blog.html"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#blogMenu"
@@ -85,11 +86,11 @@
                             </a>
                             <div class="dropdown-menu collapse" id="blogMenu">
                             </div>
-                        </li>-->
+                        </li>
                        
-                        <li class="header_nav-list_item dropdown">
+                        <li class="header_nav-list_item">
                             <a
-                                class="nav-link nav-item dropdown-toggle d-flex align-items-center"
+                                class="nav-link nav-item  d-flex align-items-center"
                                 href="contacts.html"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#contactsMenu"
@@ -147,7 +148,7 @@
         <header class="page">
             <div class="page_cover d-flex flex-column align-items-center justify-content-center">
                 <div class="page_cover-img"></div>
-                <h2 class="page_cover-title white-txt">Our Menu</h2>
+                <h2 class="page_cover-title white-txt">Milkshake Menu</h2>
             </div>
             <div class="page_breadcrumbs">
                 <ul class="page_breadcrumbs-list d-flex flex-wrap justify-content-center h5">
@@ -156,106 +157,95 @@
                     </li>
 
                     <li>Menu</li>
+                    <li>Milkshake Menu</li>
                 </ul>
             </div>
         </header>
         <!-- menu content start -->
         <main>
-            <section class="menu section">
+            <section class="menu section pdb">
                 <div class="container">
-                    <div class="section_header centered">
-                        <!-- <span class="section_header-subtitle" data-aos="fade-down">Our menu</span> -->
-                        <h2 class="section_header-title" data-aos="fade-up" data-aos-delay="50">Our Menu</h2>
-                        <p class="text-center mb-5">Discover Tattva Bar & Cafe, Mumbai’s ultimate spot for great food, coffee, and
-                            refreshing mocktails! Our menu is a perfect mix of global flavours and local favourites, offering
-                            something special for every craving.</p>
-                            <div class="row">
-                                <div class="col-md-4 mb-4">
-                                    <div class="card">
-                                        <img src="img/menu/all-food-bg.jpg" class="card-img-top" alt="Menu Item">
-                                        <div class="card-body df">
-                                            <h5 class="card-title">Food Menu</h5>
-                                            <a href="food-menu.html"  class="btn btn-primary">View Menu</a>
-                                        </div>
-                                    </div>
+                    <!-- <div class="section_header centered">
+                        <span class="section_header-subtitle" data-aos="fade-down">Our menu</span>
+                        <h2 class="section_header-title" data-aos="fade-up" data-aos-delay="50"> Espresso Based </h2>
+                    </div> -->
+                    <div class="recent_wrapper">
+                        
+                        <ul class="menu_tab-list collapse cust-menu show" id="starters">
+                            <li class="menu_tab-list_item " data-type="vegan">
+                                <div class="main h5">
+                                    <img src="img/menu/mikshakes/oreo-overload.jpg" >
+                                    <div class="">
+                                        <a class="main_name" href="#">Oreo Overload</a>
+                                        <p class="description text--md">A sweet and creamy combination of delicious vanilla ice and oreo cookies.</p>
+                                    </div> 
                                 </div>
-                
-                                <!-- <div class="col-md-4 mb-4">
-                                    <div class="card">
-                                        <img src="img/menu/food-bg.png" class="card-img-top" alt="Menu Item">
-                                        <div class="card-body df">
-                                            <h5 class="card-title">Food</h5>
-                                            <a href="#"  class="btn btn-primary">View Menu</a>
-                                        </div>
-                                    </div>
-                                </div> -->
-                
-                                <div class="col-md-4 mb-4">
-                                    <div class="card">
-                                        <img src="img/menu/sc/2.2.png" class="card-img-top" alt="Menu Item">
-                                        <div class="card-body df">
-                                            <h5 class="card-title">Signature Cocktail</h5>
-                                            <a href="signature-cocktail.html"  class="btn btn-primary">View
-                                                Menu</a>
-                                        </div>
-                                    </div>
+                            </li>
+                            <li class="menu_tab-list_item " data-type="vegan">
+                                <div class="main h5">
+                                    <img src="img/menu/mikshakes/nutella-shake.jpg" >
+                                    <div class="">
+                                        <a class="main_name" href="#">Nutella Shake</a>
+                                        <p class="description text--md">A chocolaty fusion of vanilla ice cream and nutella.</p>
+                                    </div> 
                                 </div>
-                
-                                <!-- <div class="col-md-4 mb-4">
-                                    <div class="card">
-                                        <img src="img/menu/cocktail-bg.png" class="card-img-top" alt="Menu Item">
-                                        <div class="card-body df">
-                                            <h5 class="card-title">Cocktail</h5>
-                                            <a href="#"  class="btn btn-primary">View Menu</a>
-                                        </div>
-                                    </div>
-                                </div> -->
-                
-                                <div class="col-md-4 mb-4">
-                                    <div class="card">
-                                        <img src="img/menu/coffee-bg.jpg"
-                                            class="card-img-top" alt="Menu Item">
-                                        <div class="card-body df">
-                                            <h5 class="card-title">Coffee </h5>
-                                            <a href="coffee-menu.html"  class="btn btn-primary">View Menu</a>
-                                        </div>
-                                    </div>
+                            </li>
+                            <li class="menu_tab-list_item " data-type="vegan">
+                                <div class="main h5">
+                                    <img src="img/menu/mikshakes/KitkatMilkShake.jpg" >
+                                    <div class="">
+                                        <a class="main_name" href="#">Kitkat Milk Shake</a>
+                                        <p class="description text--md">Vanilla Ice Cream meets KitKat to give your tastebuds a sweet ride.</p>
+                                    </div> 
                                 </div>
-                
-                                <div class="col-md-4 mb-4">
-                                    <div class="card">
-                                        <img src="img/menu/desserts-bg.png" class="card-img-top" alt="Menu Item">
-                                        <div class="card-body df">
-                                            <h5 class="card-title">Desserts</h5>
-                                            <a href="dessert.html"  class="btn btn-primary">View Menu</a>
-                                        </div>
-                                    </div>
+                            </li>
+                            <li class="menu_tab-list_item " data-type="vegan">
+                                <div class="main h5">
+                                    <img src="img/menu/mikshakes/ChocolateTriffelShake.jpg" >
+                                    <div class="">
+                                        <a class="main_name" href="#">Chocolate Triffel Shake</a>
+                                        <p class="description text--md">A wondrous shake made with milk, chocolate sauce, chocolate crumble and ice.cream.</p>
+                                    </div> 
                                 </div>
-                
-                                <div class="col-md-4 mb-4">
-                                    <div class="card">
-                                        <img src="img/menu/mocktail-bg.png" class="card-img-top" alt="Menu Item">
-                                        <div class="card-body df">
-                                            <h5 class="card-title">Mocktails</h5>
-                                            <a href="#"  class="btn btn-primary">View Menu</a>
-                                        </div>
-                                    </div>
+                            </li>
+                            
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="container">
+                    <!-- <div class="section_header centered">
+                        <span class="section_header-subtitle" data-aos="fade-down">Our menu</span>
+                        <h2 class="section_header-title pdt" data-aos="fade-up" data-aos-delay="50"> Iced Coffee </h2>
+                    </div> -->
+                    <div class="recent_wrapper">
+                        
+                        <ul class="menu_tab-list collapse cust-menu show" id="starters">
+                            <li class="menu_tab-list_item " data-type="vegan">
+                                <div class="main h5">
+                                    <img src="img/menu/mikshakes/banana.jfif" >
+                                    <div class="">
+                                        <a class="main_name" href="#">Shake Shake Banana Shake</a>
+                                        <!-- <p class="description text--md">A strong and sweet beverage made with brews Vietnamese coffee, milk and ice.</p> -->
+                                    </div> 
                                 </div>
-                
-                                <div class="col-md-4 mb-4">
-                                    <div class="card">
-                                        <img src="img/menu/milkshake-bg.jpg" class="card-img-top" alt="Menu Item">
-                                        <div class="card-body df">
-                                            <h5 class="card-title">Mikshakes</h5>
-                                            <a href="milkshakes-menu.html"  class="btn btn-primary">View Menu</a>
-                                        </div>
-                                    </div>
+                            </li>
+                            <li class="menu_tab-list_item " data-type="vegan">
+                                <div class="main h5">
+                                    <img src="img/menu/mikshakes/berry.jfif" >
+                                    <div class="">
+                                        <a class="main_name" href="#">Blue Berry cheese Shake</a>
+                                        <!-- <p class="description text--md">Sweet condensed milk meets a strong shot of espresso coffee.</p> -->
+                                    </div> 
                                 </div>
-                
-                            </div>
+                            </li>
+                            
+                        </ul>
+                        
                     </div>
                 </div>
             </section>
+            <!-- banners section start -->
             <section class="booking section cust-p">
                 <div class="container">
                     <div class="section_header centered">
@@ -263,10 +253,11 @@
                         <h2 class="section_header-title" data-aos="fade-up" data-aos-delay="50">Book Your Reservation Today</h2> -->
                     </div>
                     <div class="wrapper" data-aos="fade-up" data-aos-delay="150">
-                        <a class="booking_btn btn" href="https://airmenus.in/tattva/mumbai/Dine-In">view full menu</a>
+                        <a class="booking_btn btn" href="https://airmenus.in/tattva/mumbai/Dine-In/Coffee%20Menu">view full menu</a>
                     </div>
                 </div>
             </section>
+            
             <!-- map section start -->
              <div style="height: 500px;">
             <iframe
